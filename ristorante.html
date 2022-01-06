@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Biasiolo Matteo">
+    <title>RISTORANTE</title>
+    <link rel="icon" href="./img/logo.png" type="image/icon type">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/effects.css" rel="stylesheet">
+</head>
+<body>
+
+    <section class="cover cover--restaurant">
+        <div class="filter"></div>
+    
+        <header class="header clearfix">
+          <div class="div-logo"><a href="index.html"><img src="./img/logo.png" alt="logo" class="logo"></a></div>
+           <div class="div-tags">
+            <a href="ristorante.html" class="tag"><i class="material-icons">restaurant</i><strong> RISTORANTE</strong></a>
+            <a href="servizi.html" class="tag"><i class="material-icons">network_wifi</i><strong> SERVIZI</strong></a>
+            <a href="contatti.html" class="tag"><i class="material-icons">supervisor_account</i> <strong> CONTATTI</strong></a>
+           </div>
+        </header>
+    
+     <div class="cover-textbox">
+        <div class="text--page">
+        <h1>RISTORANTE</h1>
+        </div>
+    </div>
+
+ </section>
+
+ <section class="article-restaurant clearfix">
+    <div class="restaurant">
+        <div class="restaurant-image">
+            <figure>  
+                <img src="./img/restaurant/chef.jpg" class="chef-image">  
+                <figcaption>  
+                    <p class="chef-text"><i>Chef Cristiano Tomei</i></p>  
+                </figcaption>  
+            </figure>
+        </div>
+        <div class="restaurant-textbox">
+            <div class="restaurant-text">
+                <h1>DE PISIS RESTAURANT</h1>
+                <p>Una vista mozzafiato sul Canal Grande con sullo sfondo la chiesa di Santa Maria della Salute. 
+                    Una cucina creativa, fusione di accenti della cultura culinaria delle essenze veneziane e mediterranee.</p>
+            
+                <p>La nostra finestra di ambienti sofisticati, sapori sorprendenti, con la scelta tra esperienze di cucina 
+                    multisensoriale e momenti indimenticabili di relax. Ogni spazio è unico. Il divertimento assume nuovi significati.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="fotos clearfix">
+        <div class="row">
+            <div class="column foto">
+              <img src="./img/restaurant/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow fotos-images">
+            </div>
+            <div class="column foto">
+              <img src="./img/restaurant/2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow fotos-images">
+            </div>
+            <div class="column foto">
+              <img src="./img/restaurant/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow fotos-images">
+            </div>
+            <div class="column foto">
+              <img src="./img/restaurant/4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow fotos-images">
+            </div>
+            <div class="column foto">
+                <img src="./img/restaurant/5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow fotos-images">
+            </div>
+            <div class="column foto">
+                <img src="./img/restaurant/6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow fotos-images">
+            </div>
+            <div class="column foto">
+                <img src="./img/restaurant/7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow fotos-images">
+            </div>
+            <div class="column foto">
+                <img src="./img/restaurant/8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow fotos-images">
+            </div>
+            <div class="column foto">
+                <img src="./img/restaurant/9.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow fotos-images">
+            </div>
+          </div>
+
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+          
+              <div class="mySlides">
+                <img src="./img/restaurant/1.jpg" class="fotos-images">
+              </div>
+          
+              <div class="mySlides">
+                <img src="./img/restaurant/2.jpg" class="fotos-images">
+              </div>
+          
+              <div class="mySlides">
+                <img src="./img/restaurant/3.jpg" class="fotos-images">
+              </div>
+          
+              <div class="mySlides">
+                <img src="./img/restaurant/4.jpg" class="fotos-images">
+              </div>
+
+              <div class="mySlides">
+                <img src="./img/restaurant/5.jpg" class="fotos-images">
+              </div>
+
+              <div class="mySlides">
+                <img src="./img/restaurant/6.jpg" class="fotos-images">
+              </div>
+
+              <div class="mySlides">
+                <img src="./img/restaurant/7.jpg" class="fotos-images">
+              </div>
+
+              <div class="mySlides">
+                <img src="./img/restaurant/8.jpg" class="fotos-images">
+              </div>
+
+              <div class="mySlides">
+                <img src="./img/restaurant/9.jpg" class="fotos-images">
+              </div>
+          
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+          </div>
+    </div>
+</section>
+
+<section class="article-menu clearfix">
+    <div class="menu">
+        <div class="menu-textbox">
+            <div class="menu-text-top">
+                <h1 class="menu-h1">MENÙ</h1>
+                <h2 class="menu-h2">PRANZO E CENA</h2>
+                <hr>
+            </div>
+            <div class="menu-text">
+                <h1>INSALATE E ANTIPASTI</h1>
+            </div>
+                <div class="menu-left">
+                        <p>INSALATA MISTA DI STAGIONE</p>
+                        <p>INSALATA ALLA NIZZARDA CLASSICA</p>
+                        <p>INSALATA ALLA CAESAR CON SCAGLIE DI PARMIGIANO REGGIANO DOP E CROSTINI</p>
+                        <p>SALMONE LEGGERMENTE AFFUMICATO CON FORMAGGIO CREMOSO E CAPPERI IN FIORE</p>
+                </div>
+                <div class="menu-right">
+                        <p>INSALATA GRECA</p>
+                        <p>INSALATA DI QUINOA, VERDURE CROCCANTI, GUACAMOLE, ZENZERO E ALGHE</p>
+                        <p>CAPRESE DI MOZZARELLA DI BUFALA, POMODORI E BASILICO</p>
+                        <p>CULATELLO DI ZIBELLO E MELONE</p>
+                </div>
+            <div class="menu-text">
+                <hr>
+                <h1>PASTA, RISO E MINESTRE</h1>
+            </div>
+                <div class="menu-left">
+                        <p>SPAGHETTI AL POMODORO E BASILICO</p>
+                        <p>PENNETTE ALL’ARRABBIATA</p>
+                        <p>LINGUINE AI FRUTTI DI MARE</p>
+                        <p>LASAGNE TRADIZIONALI AL RAGÙ</p>
+                        <p>CREMA DI POMODORO FRESCO E BASILICO</p>
+                        <p>BRODO DI POLLO CON VERDURE E CAPELLI D’ANGELO</p>
+                </div>
+                <div class="menu-right">
+                        <p>RISOTTO ALLA MILANESE CON PISTILLI DI ZAFFERANO</p>
+                        <p>PARMIGIANA DI MELANZANE</p>
+                        <p>TAGLIATELLE CON RAGÙ ALLA BOLOGNESE</p>
+                        <p>MINESTRONE DI VERDURE STAGIONALI</p>
+                        <p>ZUPPA DI LENTICCHIE</p>
+                </div>
+            <div class="menu-text">
+                <hr>
+                <h1>A BASE DI PESCE</h1>
+            </div>
+                <div class="menu-left">
+                        <p>POLPO ARROSTO CON PATATE, POMODORO DI PACHINO IGP, OLIVE TAGGIASCHE E MISTICANZA</p>
+                        <p>FILETTO DI BRANZINO CON MELANZANE E SALSA MEDITERRANEA</p>
+                </div>
+                <div class="menu-right">
+                        <p>FILETTO DI SALMONE ARROSTITO CON PATATE ALL’OLIO E VERDURINE</p>
+                        <p>GAMBERI AL CURRY CON VERDURE E RISO BASMATI</p>
+                </div>
+            <div class="menu-text">
+                <hr>
+                <h1>A BASE DI CARNE</h1>
+            </div>            
+                <div class="menu-left">
+                        <p>COTOLETTA ALLA MILANESE CON RUCOLA E POMODORINI</p>
+                        <p>FILETTO DI MANZO CON PUREA DI PATATE E SPINACINI</p>
+                        <p>POLLO AL CURRY CON VERDURE E RISO BASMATI</p>
+                </div>
+                <div class="menu-right">
+                        <p>GALLETTO CROCCANTE AL ROSMARINO CON PUREA DI PATATE</p>
+                        <p>OSSOBUCO DI VITELLO CON RISOTTO ALLA MILANESE</p>
+                </div>
+            <div class="menu-text">
+                <hr>
+                <h1>DESSERT</h1>
+            </div>  
+                <div class="menu-left">
+                        <p>TIRAMISÙ CLASSICO</p>
+                        <p>CRÈME BRULÉE ALLA VANIGLIA</p>
+                        <p>INSALATA DI FRUTTA FRESCA DI STAGIONE</p>
+                        <p>COPPA DI FRUTTI DI BOSCO</p>
+                </div>
+                <div class="menu-right">
+                        <p>PANNA COTTA ALLA VANIGLIA</p>
+                        <p>CHEESECAKE CON FRUTTI DI BOSCO</p>
+                        <p>BROWNIES AL CIOCCOLATO</p>
+                        <p>I NOSTRI GELATI E SORBETTI</p>
+                </div>
+                <div class="menu-text">
+                  <hr>
+                  <h1></h1>
+              </div>  
+         </div>
+    </div>
+</section>
+
+ <section class="footer-line clearfix">
+  <footer>
+    <div class="copyright">
+       <p>© Copyright Bauer S.R.L. a socio unico PI: 06338441006 | REA: BZ-230715
+           Capitale Sociale i.v. € 28.380.000,00 </p>
+        <p> Sede legale:
+           Piazza Walther Von Vogelweide, 22
+           39100 Bolzano</p>
+    </div>
+    <div class="footer-tags">
+           <a href="servizi.html" class="footer-tag">Services</a>
+           <a href="contatti.html" class="footer-tag">Contact</a>
+           <a href="ristorante.html" class="footer-tag">Restaurant</a>
+           <a href="rooms.html" class="footer-tag">Suite</a>
+           <a href="index.html" class="footer-tag">Home</a>
+    </div>
+</footer>
+ </section>
+
+ <script>
+    function openModal() {
+      document.getElementById("myModal").style.display = "block";
+    }
+    
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
+    }
+    
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+ </script>
+
+</body>
+</html>
+
+
+<!--https://www.melia.com/it/hotels/italia/milano/melia-milano/index.htm?esl-k=sem-google%7Cng%7Cc545787456650%7Cm%7Ck%7Cp%7Ct%7Cdc%7Ca125538664725%7Cg14647606295&gclid=Cj0KCQiA_JWOBhDRARIsANymNOYh6X6Ii0GAXK-2zWh8nhtUxybLvRFKQ2JOF_FftKRX3U6LUHKlWKEaAm8_EALw_wcB&gclsrc=aw.ds -->
+<!--https://room-matehotels.com/it/giulia/?gclid=Cj0KCQiA_JWOBhDRARIsANymNOak03vkriQJd-L_R2NTbDAvJHWo-z35n49tRhBYxmm-EWGks1u5HIsaAjHfEALw_wcB-->
+<!--https://www.bauervenezia.com/it/-->

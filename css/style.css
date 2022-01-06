@@ -1,0 +1,994 @@
+html,body{
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: rgb(210, 216, 216);
+    margin: 0;
+}
+
+.header{
+    background: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.div-logo{
+    max-width: 400px;
+    margin: 0px auto;
+    float: left;
+    display: block; 
+}
+
+.logo{
+    padding: 15px;
+    width: 50%;
+    margin-top: -20px;
+}
+
+.tag{
+    color: white; 
+    float: right; 
+    display: block; 
+    padding: 5px; 
+    text-decoration: none; 
+    font-family: courier,arial,helvetica;
+    font-size: 25px;
+    margin: 60px 20px;
+}
+
+.div-tags{
+    padding: 0 50pt;
+}
+
+.tag:hover{
+    border-bottom: solid 2px white;
+}
+
+.cover{
+    height: 88%;
+    background-image: url("../img/cover.jpg");
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.filter{
+    background: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.cover-textbox{
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-size: 15pt;
+}
+
+.cover-table{
+    padding: 70px;
+    margin-top: -40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover-table-td{
+    border: solid 10px white;
+}
+
+.line-button{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.line{
+    height: 80px;
+    background-color: rgb(39, 39, 39);
+    position: relative;
+}
+
+.line-textbox{
+    display: table;
+    height: 80px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.line-table{
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    display: table-cell;
+    vertical-align: middle;
+    background: white;
+    color: black;
+    font-size: 24px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: ease-out 0.25s;
+}
+
+.button:hover{
+    font-size:28px;
+}
+
+.banner{
+    background: white;
+    height: 55%;
+    width: 70%;
+    margin: 60px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 20px;
+}
+
+.banner-image{
+    width: 30%;
+    float: left;
+    height: 100%;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center center;
+}
+
+.banner-textbox{
+    width: 70%;
+    float: left;
+    height: 100%;
+    display: table;
+    vertical-align: middle;
+}
+
+.banner-text{
+    padding: 40px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner-text h3{
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.banner-text h4{
+    font-size: 22px;
+    margin: 5px 0;
+    margin-bottom: -10px;
+}
+
+.cards{
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.cards-rooms{
+    max-width: 2000px;
+    margin: 40px;
+    margin-left: 100pt;
+}
+
+.card-rooms{
+    max-width: 360px;
+    max-height: 340px;
+    margin: 0 1.5%;
+    margin-bottom: 30px;
+    background: white;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-rooms a{
+    text-decoration: none;
+    color: black;
+}
+
+.cards-rooms-images{
+    max-width: 360px;
+    max-height: 240px;
+}
+
+.card{
+    width: 30%;
+    margin: 0 1.5%;
+    margin-bottom: 30px;
+    background: white;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardstext{
+    padding: 20px;
+    font-size: 18px;
+}
+
+.cards-images{
+    width: 100%;
+    height: auto;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.button-rooms{
+    display: block;
+    float: right;
+    background: black;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.modS{
+    margin-right: -23px;
+}
+
+.modP{
+    margin-right: 40px;
+}
+
+.article{
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-top: -60px;
+    background: white;
+    padding: 50px 50px;
+    position: relative;
+    z-index: 1;
+    font-size: 22px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.article-textbox{
+    width: 70%;
+    float: left;
+    height: 100%;
+    display: table;
+}
+
+.article-text{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px 50px;
+    text-align: justify;
+}
+
+.article-price{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px;
+    border-left: solid black 1px;
+}
+
+.article-price h1{
+    font-size: 15px;
+}
+
+.article-price h2{
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.article-price li{
+    padding: 0.9em;
+    margin-left: -40px;
+}
+
+.article-price i{
+    color: transparent;
+}
+
+ul {list-style-type: none;}
+
+.fotos{
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.foto{
+    width: 30%;
+    margin: 10px 5px;
+    background: white;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.fotos-images{
+    width: 100%;
+    height: 100%;
+}
+
+.fotos-images-full{
+    width: 100%;
+    height: 100%;
+}
+
+.other{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.cover--royal{
+    height: 50%;
+    background-image: url(../img/royal/royal.jpg);
+}
+
+.cover--presidential{
+    height: 50%;
+    background-image: url(../img/presidential/presidential.jpg);
+}
+
+.cover--deluxe{
+    height: 50%;
+    background-image: url(../img/deluxe/deluxe.jpg);
+}
+
+.cover--grand-canal{
+    height: 50%;
+    background-image: url(../img/grand_canal/grand_canal.jpg);
+}
+
+.text--page{
+    display: table-cell;
+    text-align: center;
+    color: white;
+    font-size: 25pt;
+}
+
+.cover--contacts{
+    height: 50%;
+    background-image: url(../img/contacts.jpg);
+}
+
+.contacts{
+    max-width: 1400px;
+    margin: 0px auto;
+    margin-top: -60px;
+    margin-bottom: 60px;
+    background: white;
+    padding: 50px 50px;
+    position: relative;
+    z-index: 1;
+    font-size: 22px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contacts-textbox{
+    display: table-cell;
+    padding: 0px 40px;
+}
+
+.contacts-text{
+    display: table;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.contacts-textbox h1{
+    font-size: 22px;
+}
+
+.contacts-textbox p{
+    line-height: 1.6;
+}
+
+.net{
+    max-width: 25%;
+    max-height: 25%;
+    padding: 20px;
+}
+
+.net-logo{
+    max-width: 10%;
+    max-height: 10%;
+    padding: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacts-logo{
+    margin: 0px auto;
+}
+
+.contacts-text a{
+    text-decoration: none;
+    color: black;
+}
+
+.mar{
+    margin-right: -70pt;
+}
+
+.div{
+    padding: 10px;
+    margin-left: -50px;
+}
+
+.contacts-text i{
+    color: transparent;
+}
+
+.cover--services{
+    height: 50%;
+    background-image: url(../img/services/services.jpg);
+}
+
+.cover--restaurant{
+    height: 50%;
+    background-image: url(../img/restaurant/restaurant.jpg);
+}
+
+.cover--rooms{
+    height: 50%;
+    background-image: url(../img/room.jpg);
+}
+
+.card-mar{
+    margin-top: 40px
+}
+
+.rooms{
+    max-width: 800px;
+    margin: 0px auto;
+    margin-top: -60px;
+    background: white;
+    padding: 20px 40px;
+    position: relative;
+    z-index: 1;
+    font-size: 22px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rooms-textbox{
+    width: 100%;
+    height: 100%;
+    margin-top: -30px;
+}
+
+.rooms-text{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px 50px;
+    text-align: justify;
+}
+
+.rooms-text h1{
+    text-align: center;
+}
+
+.article-restaurant{
+    max-width: 1400px;
+    margin: 0px auto;
+    margin-top: -60px;
+    margin-bottom: 60px;
+    background: white;
+    padding: 50px 50px;
+    position: relative;
+    z-index: 1;
+    font-size: 22px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.restaurant-textbox{
+    width: 70%;
+    float: right;
+    height: 100%;
+    display: table;
+    margin-top: -30px;
+    max-width: 850px;
+}
+
+.restaurant-text{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 23px 50px;
+    text-align: justify;
+}
+
+.restaurant-text h1{
+    font-size: 38px;
+}
+
+.chef-image{
+    width: 100%;
+    height: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.restaurant-image{
+    max-width: 400px;
+    float: left;
+    height: 100%;
+    display: table-cell;
+}
+
+.restaurant{
+    padding: 20px;
+    display: table;
+}
+
+.chef-text{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.restaurant-textbox{
+    width: 70%;
+    float: left;
+    height: 100%;
+    display: table;
+    margin-top: -30px;
+}
+
+.article-menu{
+    max-width: 1100px;
+    margin: 0px auto;
+    margin-bottom: 60px;
+    background: white;
+    padding: 50px 50px;
+    position: relative;
+    z-index: 0;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu-image{
+    width: 100%;
+    height: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.menu{
+    padding: 20px;
+}
+
+.menu-text hr{
+    width: 50%;
+}
+
+.menu-h1{
+    font-size: 60px;
+}
+
+.menu-h2{
+    font-size: 35px;
+}
+
+.menu-textbox{
+    width: 100%;
+    height: 100%;
+}
+
+.menu-text{
+    padding: 30px 50px;
+    margin-bottom: -40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu-text-top{
+    padding: 30px 50px;
+    margin-bottom: -40px;
+    margin-top: -50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu-right{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 450px;
+    float: right;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.menu-left{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 450px;
+    float: left;
+    margin-left: 60px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.menu p{
+    padding: 1em;
+}
+
+.services{
+    background: white;
+    height: 50%;
+    width: 70%;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.services-top{
+    background: white;
+    height: 50%;
+    width: 70%;
+    margin: 50px auto;
+    margin-top: -60px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.services-textbox{
+    width: 70%;
+    float: left;
+    height: 100%;
+    display: table;
+    font-size: 24px;
+}
+
+.services-text{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px;
+    padding-right: 60px;
+}
+
+.services-text h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.services-text p{
+    max-width: 700px;
+}
+
+.services-wifi{
+    width: 30%;
+    float: left;
+    height: 100%;
+    background-image: url("../img/services/wifi.jpg");
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center center;
+}
+
+.services-breakfast{
+    width: 30%;
+    float: left;
+    height: 100%;
+    background-image: url("../img/services/breakfast.jpg");
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center center;
+}
+
+.services-pets{
+    width: 30%;
+    float: left;
+    height: 100%;
+    background-image: url("../img/services/pets.jpg");
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center center;
+}
+
+.services-meetings{
+    width: 30%;
+    float: left;
+    height: 100%;
+    background-image: url("../img/services/meetings.jpg");
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center center;
+}
+
+.services-fitness{
+    width: 30%;
+    float: left;
+    height: 100%;
+    background-image: url("../img/services/fitness.jpg");
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center center;
+}
+
+.footer-line{
+    height: 90px;
+    background-color: rgb(39, 39, 39);
+    position: relative;
+}
+
+.copyright{
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 150px;
+    float: left;
+}
+
+.footer-tags{
+    padding: 0 250px;
+}
+
+.footer-tag{
+    color: white; 
+    float: right; 
+    padding: 5px; 
+    text-decoration: none; 
+    font-size: 12px;
+    display: block; 
+    margin: 30px 20px;
+}
+
+@media screen and (max-width: 1600px){
+
+    .banner{
+        height: 50%;
+        width: 80%;
+        margin: 60px auto;
+        font-size: 16px;
+    }
+
+    .banner-text{
+        padding: 20px;
+    }
+
+    .contacts{
+        max-width: 1100px;
+        margin: 0px auto;
+        margin-top: -60px;
+        margin-bottom: 60px;
+    }
+
+    .contacts-text{
+        font-size: 18px;
+    }
+    
+    .contacts-textbox h1{
+        font-size: 20px;
+    }
+
+    .article-restaurant{
+        max-width: 1100px;
+        margin: 0px auto;
+        margin-top: -60px;
+        margin-bottom: 60px;
+    }
+
+    .restaurant-textbox{
+        width: 600px;
+    }
+
+    .restaurant-image{
+        max-width: 400px;
+        float: left;
+        height: 100%;
+        display: table-cell;
+        margin-top: 40px;
+    }
+
+    .cards-rooms{
+        max-width: 770px;
+        margin: 40px auto;
+    }
+
+    .article{
+        max-width: 1100px;
+        margin: 0px auto;
+        margin-top: -60px;
+    }
+
+    .services{
+        height: 50%;
+        width: 80%;
+        margin: 50px auto;
+    }
+    
+    .services-top{
+        height: 50%;
+        width: 80%;
+        margin: 50px auto;
+        margin-top: -60px;
+    }
+
+    .banner-text h3{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        color: white;
+        font-size: 12px;
+        padding: 8px;
+        float: left;
+        margin-left: 10px;
+    }
+    
+    .footer-tags{
+        padding: 10px;
+        margin-right: 10px;
+    }
+    
+    .footer-tag{
+        color: white; 
+        float: right; 
+        padding: 5px; 
+        text-decoration: none; 
+        font-size: 12px;
+        display: block; 
+        margin: 15px 20px;
+    }
+
+} 
+
+@media screen and (max-width: 1300px){
+
+    .banner{
+        height: 60%;
+        width: 80%;
+        margin: 60px auto;
+        font-size: 16px;
+    }
+
+    .banner-text h3{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        color: white;
+        font-size: 12px;
+        padding: 8px;
+        float: left;
+        margin-left: 10px;
+    }
+    
+    .footer-tags{
+        padding: 10px;
+        margin-right: 10px;
+    }
+    
+    .footer-tag{
+        color: white; 
+        float: right; 
+        padding: 5px; 
+        text-decoration: none; 
+        font-size: 12px;
+        display: block; 
+        margin: 15px 20px;
+    }
+}
+
+@media screen and (max-height: 700px){
+
+    .banner{
+        height: 70%;
+        width: 80%;
+        margin: 60px auto;
+        font-size: 16px;
+    }
+
+    .cover{
+        height: 100%;
+    }
+
+    .cover--services{
+        height: 60%;
+        background-image: url(../img/services/services.jpg);
+    }
+    
+    .cover--restaurant{
+        height: 60%;
+        background-image: url(../img/restaurant/restaurant.jpg);
+    }
+    
+    .cover--rooms{
+        height: 60%;
+        background-image: url(../img/room.jpg);
+    }
+
+    .cover--royal{
+        height: 60%;
+        background-image: url(../img/royal/royal.jpg);
+    }
+    
+    .cover--presidential{
+        height: 60%;
+        background-image: url(../img/presidential/presidential.jpg);
+    }
+    
+    .cover--deluxe{
+        height: 60%;
+        background-image: url(../img/deluxe/deluxe.jpg);
+    }
+    
+    .cover--grand-canal{
+        height: 60%;
+        background-image: url(../img/grand_canal/grand_canal.jpg);
+    }
+    
+    .cover--contacts{
+        height: 60%;
+        background-image: url(../img/contacts.jpg);
+    }
+
+    .banner-text h3{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        color: white;
+        font-size: 12px;
+        padding: 8px;
+        float: left;
+        margin-left: 10px;
+    }
+    
+    .footer-tags{
+        padding: 10px;
+        margin-right: 10px;
+    }
+    
+    .footer-tag{
+        color: white; 
+        float: right; 
+        padding: 5px; 
+        text-decoration: none; 
+        font-size: 12px;
+        display: block; 
+        margin: 15px 20px;
+    }
+}
+
+
+
+.google-maps {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  * html .clearfix             { zoom: 1; }
+  *:first-child+html .clearfix { zoom: 1; }
